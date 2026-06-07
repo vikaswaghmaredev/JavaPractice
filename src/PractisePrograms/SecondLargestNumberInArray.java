@@ -4,6 +4,8 @@ public class SecondLargestNumberInArray {
     public static void main(String[] args) {
 
         int a[]={3,4,5,6,7};
+        int b=a.length;
+        System.out.println("length of an array:"+b);
         int largest=a[0];
         int secondLargest=a[0];
 
